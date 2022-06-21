@@ -13,13 +13,10 @@ Esse projeto foi construído durante aulas do **Modulo 3 Turma-t6-t7**, curso or
 - 
 - 
 ## Front end
-- HTML / CSS / JS / TypeScript
-- ReactJS
-- React Native
-- Apex Charts
-- Expo
+- 
+
 ## Implantação em produção
-- Back end: Heroku
+- 
 
 # Como executar o projeto
 
