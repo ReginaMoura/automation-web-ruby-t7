@@ -1,36 +1,18 @@
 # Projeto Ruby + Cucumber
 
 # Sobre o projeto
-Projeto de aautomação web utilizando Ruby + Cucumber
-Esse projeto foi construído durante aulas do **Modulo 3 Turma-t6-t7**, curso organizado pela [Qa.Coders](https://qacoders.com "Site da Qa.Coders").
+Projeto de automação web utilizando Ruby + Cucumber
+Esse projeto foi construído durante aulas do **Modulo 3 Turma-t6-t7**, curso organizado pelo William Silva [Qa.Coders](https://qacoders.com "Site da Qa.Coders").
 
-## 
-
-# Tecnologias utilizadas
-## 
-- 
-- 
-- 
-- 
-## Front end
-- 
-
-## Implantação em produção
-- 
-
-# Como executar o projeto
 
 ## Pre Requisitos
 Pré-requisitos: 
 [Ruby] (https://rubyinstaller.org/downloads/) - Instalar a versão recomendada  marcada por => sessão WITH DEVKIT
 
 
-## 
-Pré-requisitos:
-
 ```bash
 # clonar repositório
-git clone https://github.com/
+git clone https://github.com/ReginaMoura/automation-web-ruby-t7#projeto-ruby--cucumber
 
 # entrar na pasta do projeto  web
 cd 
@@ -39,11 +21,10 @@ cd
 bundler install
 
 # executar o projeto
-
+bundler exec cucumber
 ```
 
 # Autor
-
-Regina Moura
+Regina Celia Cordeiro Moura
 
 https://www.linkedin.com/
