@@ -1,0 +1,16 @@
+#parametros do projetos navegadores, reports html, 
+#parametros para suas açoes
+#default linha de comando padrao 
+default: -p pretty --publish-quiet  -p html -p development -p chrome
+
+#prety é ara formatar
+pretty: --format pretty
+development: ENVIRONMENT=development
+production: ENVIRONMENT=production
+
+chrome: BROWSER=chrome
+firefox: BROWSER=firefox
+chrome_headless: BROWSER=chrome_headless
+headless: BROWSER=headless
+
+html: --format html --out=reports/report.html
