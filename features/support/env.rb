@@ -7,7 +7,7 @@ require 'pry'
 ENVIRONMENT = ENV['ENVIRONMENT']
 puts "ENVIRONMENT is runner >>> #{ENVIRONMENT}"
 
-CONFIG = YAML.looad_file(File.dirname(__FILE__) + "environments/#{ENVIRONMENT}.yml")
+CONFIG = YAML.load_file(File.dirname(__FILE__) + "environments/#{ENVIRONMENT}.yml")
 
 Capybara.configure do |config|
     config.default_driver = :selenium_chrome
