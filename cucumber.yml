@@ -1,4 +1,4 @@
-#parametros do projetos navegadores, reports html, 
+#cucumber.yml parametros do projetos navegadores, reports html, 
 #parametros para suas açoes
 #default linha de comando padrao 
 default: -p pretty --publish-quiet  -p html -p development -p chrome
